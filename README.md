@@ -19,3 +19,6 @@ chmod +x runner.sh
 ```sh
 ./runner.sh file_to_convert.pdf result_file.html
 ```
+
+## Licence
+MIT
