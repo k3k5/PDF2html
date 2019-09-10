@@ -13,10 +13,12 @@ then
     else
         echo "*** Please install Docker!"
         echo "*** Aborting!"
+        exit
     fi
 else
     echo "*** Please install Docker!"
     echo "*** Aborting!"
+    exit
 fi
 
 echo "** Checking for Dependencies: NodeJS **"
@@ -32,10 +34,12 @@ then
     else
         echo "*** Please install NodeJS!"
         echo "*** Aborting!"
+        exit
     fi
 else
     echo "*** Please install NodeJS!"
     echo "*** Aborting!"
+    exit
 fi
 
 echo "** Converting file: " + $1
