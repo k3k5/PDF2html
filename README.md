@@ -17,8 +17,9 @@ chmod +x runner.sh
 * Copy the PDF File into the PDF2html directory
 * Run the code:
 ```sh
-./runner.sh file_to_convert.pdf result_file.html
+./runner.sh file_to_convert.pdf result_file
 ```
+*IMPORTANT*: Please do not specify output format. Will be handled automatically.
 
 ## Licence
 MIT
