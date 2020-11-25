@@ -42,6 +42,9 @@ else
     exit
 fi
 
+echo "** Installing requirements"
+npm install inline-css
+
 echo "** Converting file: " + $1
 docker run -ti --rm -v `pwd`:/pdf bwits/pdf2htmlex pdf2htmlEX $1
 
